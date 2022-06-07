@@ -6,21 +6,102 @@ const cors = require('cors')
 app.use(cors())
 
 const rappers = {
-    '21 savage': {
-        'age': 29,
-        'birthName': 'Sheyaa Bin Abraham-Joseph',
-        'birthLocation': 'London, England'
+    'ash': {
+        'age': 121,
+        'realName': 'Dr. Ashleigh Reid',
+        'homeWorld': 'Unknown',
+        'tacticalAbility': 'Arc Snare',
+        'passiveAbility': 'Marked For Death',
+        'ultimateAbility': 'Phase Breach'
     },
-    'chance the rapper': {
+    'bangalore': {
         'age': 29,
-        'birthName': 'Chancelor Bennet',
-        'birthLocation': 'Chicago, Illinois'
+        'realName': '	Anita Williams',
+        'homeWorld': 'Gridiron',
+        'tacticalAbility': 	'Smoke Launcher',
+        'passiveAbility': '	Double Time',
+        'ultimateAbility': 'Rolling Thunder'
     },
-    'unknown': {
-        'age': 0,
-        'birthLocation': 'unknown',
-        'birthName': 'unknown'
-    }
+    'bloodhound': {
+        'age': 'Unknown',
+        'realName': 'Unknown',
+        'homeWorld': 'Talos',
+        'tacticalAbility': 'Eye of the Allfather',
+        'passiveAbility': 'Tracker',
+        'ultimateAbility': 'Beast of the Hunt'
+    },
+    'caustic': {
+        'age': 48,
+        'realName': 'Alexander Nox',
+        'homeWorld': 'Gaea',
+        'tacticalAbility': '	Nox Gas Trap',
+        'passiveAbility': '	Nox Vision',
+        'ultimateAbility': 'Beast of the Hunt'
+    },
+    'crypto': {
+        'age': 29,
+        'realName': 'Sheyaa Bin Abraham-Joseph',
+        'homeWorld': 'London, England',
+        'tacticalAbility': 'Arc Snare',
+        'passiveAbility': 'Marked For Death',
+        'ultimateAbility': 'Phase Breach'
+    },
+    'fuse': {
+        'age': 29,
+        'realName': 'Sheyaa Bin Abraham-Joseph',
+        'homeWorld': 'London, England',
+        'tacticalAbility': 'Arc Snare',
+        'passiveAbility': 'Marked For Death',
+        'ultimateAbility': 'Phase Breach'
+    },
+    'gribraltar': {
+        'age': 29,
+        'realName': 'Sheyaa Bin Abraham-Joseph',
+        'homeWorld': 'London, England',
+        'tacticalAbility': 'Arc Snare',
+        'passiveAbility': 'Marked For Death',
+        'ultimateAbility': 'Phase Breach'
+    },
+    'horizon': {
+        'age': 29,
+        'realName': 'Sheyaa Bin Abraham-Joseph',
+        'homeWorld': 'London, England',
+        'tacticalAbility': 'Arc Snare',
+        'passiveAbility': 'Marked For Death',
+        'ultimateAbility': 'Phase Breach'
+    },
+    'lifeline': {
+        'age': 29,
+        'realName': 'Sheyaa Bin Abraham-Joseph',
+        'homeWorld': 'London, England',
+        'tacticalAbility': 'Arc Snare',
+        'passiveAbility': 'Marked For Death',
+        'ultimateAbility': 'Phase Breach'
+    },
+    'loba': {
+        'age': 29,
+        'realName': 'Sheyaa Bin Abraham-Joseph',
+        'homeWorld': 'London, England',
+        'tacticalAbility': 'Arc Snare',
+        'passiveAbility': 'Marked For Death',
+        'ultimateAbility': 'Phase Breach'
+    },
+    'mad Maggie': {
+        'age': 29,
+        'realName': 'Sheyaa Bin Abraham-Joseph',
+        'homeWorld': 'London, England',
+        'tacticalAbility': 'Arc Snare',
+        'passiveAbility': 'Marked For Death',
+        'ultimateAbility': 'Phase Breach'
+    },
+    'mirage': {
+        'age': 29,
+        'realName': 'Sheyaa Bin Abraham-Joseph',
+        'homeWorld': 'London, England',
+        'tacticalAbility': 'Arc Snare',
+        'passiveAbility': 'Marked For Death',
+        'ultimateAbility': 'Phase Breach'
+    }, 
 }
 
 app.get('/', (request, response) => {
